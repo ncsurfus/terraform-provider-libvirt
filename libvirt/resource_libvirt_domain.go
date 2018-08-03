@@ -1259,7 +1259,7 @@ func setNetworkInterfaces(d *schema.ResourceData, domainDef *libvirtxml.Domain,
 
 		netIface := libvirtxml.DomainInterface{
 			Model: &libvirtxml.DomainInterfaceModel{
-				Type: "virtio",
+				Type: "e1000",
 			},
 		}
 
